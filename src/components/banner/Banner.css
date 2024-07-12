@@ -1,0 +1,43 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    gap: 2rem;
+    background: grey;
+    border-radius: 20px;
+    padding: 1rem;
+
+    color: white;
+}
+
+.banner .typography {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner .typography .minmax {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.banner .typography .temperature {
+    font-size: 6rem;
+}
+
+.banner .typography .minmax .label {
+    font-size: 1.2rem;
+}
+
+.banner .typography .status {
+    font-size: 1.2rem;
+}
+
+.banner .image img {
+    width: 18rem;
+}

@@ -1,0 +1,20 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between
+}
+
+.searchbar .textfield {
+    font-size: 1rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.searchbar .button {
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer
+}

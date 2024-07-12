@@ -1,0 +1,11 @@
+.location {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%
+}
+
+.location .exact {
+    font-size: 1.8rem;
+}
