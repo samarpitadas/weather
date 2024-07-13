@@ -1,0 +1,12 @@
+.datetime {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: max-content;
+    height: 52.67px;
+}
+
+.datetime .time {
+    font-size: 1.3rem;
+}

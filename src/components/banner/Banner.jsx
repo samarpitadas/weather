@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faTemperatureHigh, faTemperatureLow } from "@fortawesome/free-solid-svg-icons";
 import Cloudy from "../../assets/cloudy.png"
 
 const Banner = ({temperature, min, max, status}) => {
@@ -11,11 +11,14 @@ const Banner = ({temperature, min, max, status}) => {
                 <div className="temperature">{temperature}°C</div>
                 <div className="minmax">
                     <div className="label">
-                        <FontAwesomeIcon icon={faArrowUp} />
+                    <FontAwesomeIcon icon="fa-thin fa-temperature-low" />
+                        <FontAwesomeIcon icon={faTemperatureHigh} color="var(--light)"/>
+                        {" "}
                         {max}°C
                     </div>
                     <div className="label">
-                        <FontAwesomeIcon icon={faArrowDown} />
+                        <FontAwesomeIcon icon={faTemperatureLow} color= 'var(--light)'/>
+                        {" "}
                         {min}°C
                     </div>
                 </div>

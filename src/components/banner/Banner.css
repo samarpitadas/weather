@@ -4,10 +4,9 @@
     justify-content: center;
     width: min-content;
     gap: 2rem;
-    background: grey;
-    border-radius: 20px;
+    background: hsla(0, 0%, 100%, 0.13);
+    border-radius: 12px;
     padding: 1rem;
-
     color: white;
 }
 
@@ -39,5 +38,5 @@
 }
 
 .banner .image img {
-    width: 18rem;
+    width: 14rem;
 }
