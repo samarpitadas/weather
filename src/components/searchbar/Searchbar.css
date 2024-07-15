@@ -42,3 +42,26 @@
     color: var(--theme);
     aspect-ratio: 1/1;
 }
+@media screen and (max-width: 500px) {
+    .searchbar {
+      width: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .searchbar {
+      width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .searchbar {
+      width: 330px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .searchbar {
+      width: 310px;
+    }
+  }

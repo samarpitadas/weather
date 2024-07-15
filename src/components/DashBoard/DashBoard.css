@@ -23,3 +23,67 @@
     width: 100%;
     gap: 1rem;
 }
+@media screen and (max-width: 500px) {   
+    .time-card .time {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    .time-card{
+        padding: 12px;
+    }
+    
+    .time-card .sun-icon {
+        height: 0.95em;
+        margin-right: 0.5rem;
+    }
+
+    .info-card .icon {
+        font-size: 1.8rem !important;
+        line-height: 1px;
+     
+    }
+
+    .info-card {
+        font-size: 1.5rem !important;
+        line-height: 1em;
+    
+    }
+    .value{
+        font-size:0.8rem !important ;
+    }
+    .field{
+        font-size: 0.6rem !important;
+    }
+    .time-card .time{
+        font-size: 1.5rem !important;
+    }
+   
+  }
+  @media screen and (max-width: 450px) {
+    .time-card .time {
+        font-size: 1.5rem !important;
+    }
+  }
+
+
+
+  @media screen and (max-width: 380px) {
+    .time-card {
+        padding: 10px;
+    }
+    .time-card .time {
+        font-size: 1.5rem !important;
+    }
+    .time-card{
+        justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .time-card .time {
+        font-size: 1.5rem !important;
+    }
+  }
