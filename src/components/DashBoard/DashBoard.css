@@ -23,67 +23,67 @@
     width: 100%;
     gap: 1rem;
 }
-@media screen and (max-width: 500px) {   
-    .time-card .time {
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0.3rem;
+@media screen and (max-width: 730px) {
+    .dashboard {
+      width: 480px;
+      align-items: center;
+      justify-content: center;
     }
-    .time-card{
-        padding: 12px;
+    .maincol {
+      width: 100%;
     }
-    
-    .time-card .sun-icon {
-        height: 0.95em;
-        margin-right: 0.5rem;
+    .timecardHolder {
+      gap: 0px;
+      justify-content: space-between !important;
     }
-
-    .info-card .icon {
-        font-size: 1.8rem !important;
-        line-height: 1px;
-     
-    }
-
-    .info-card {
-        font-size: 1.5rem !important;
-        line-height: 1em;
-    
-    }
-    .value{
-        font-size:0.8rem !important ;
-    }
-    .field{
-        font-size: 0.6rem !important;
-    }
-    .time-card .time{
-        font-size: 1.5rem !important;
-    }
-   
-  }
-  @media screen and (max-width: 450px) {
-    .time-card .time {
-        font-size: 1.5rem !important;
+    *{
+        font-size: 10px;
     }
   }
-
-
-
-  @media screen and (max-width: 380px) {
-    .time-card {
-        padding: 10px;
-    }
-    .time-card .time {
-        font-size: 1.5rem !important;
-    }
-    .time-card{
-        justify-content: space-between;
+  
+  @media screen and (max-width: 522px) {
+    .dashboard {
+      width: 440px;
+      align-items: center;
+      justify-content: center;
     }
   }
-
+  
+  @media screen and (max-width: 490px) {
+    .dashboard {
+      width: 400px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 444px) {
+    .dashboard {
+      width: 350px;
+      align-items: center;
+      justify-content: center;
+    }
+    .stats {
+      overflow-x: scroll;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .dashboard {
+      width: 330px;
+    }
+    .stats {
+      gap: 5px !important;
+    }
+  }
+  
+  @media screen and (max-width: 355px) {
+    .dashboard {
+      width: 310px;
+    }
+  }
   @media screen and (max-width: 350px) {
-    .time-card .time {
-        font-size: 1.5rem !important;
+    .dashboard {
+      width: 290px;
     }
   }

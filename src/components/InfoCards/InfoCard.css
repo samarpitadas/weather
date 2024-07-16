@@ -87,7 +87,10 @@
   }
 
 
-  @media screen and (max-width: 500px) {  
+  @media screen and (max-width: 490px) {
+    
+    
+    
     .time-card .time {
         font-size: 1.5rem;
         display: flex;
@@ -96,16 +99,16 @@
         gap: 0.2rem;
     }
     .time-card{
-        padding: 12px;
+        padding: 14px;
     }
     
     .time-card .sun-icon {
-        height: 1em;
+        height: 0.9em;
         margin-right: 0.5rem;
     }
 
     .info-card .icon {
-        font-size: 1.7rem !important;
+        font-size: 1.8rem !important;
         line-height: 1px;
      
     }
@@ -122,19 +125,19 @@
         font-size: 0.6rem !important;
     }
     .time-card .time{
-        font-size: 1.8rem !important;
+        font-size: 1.7rem !important;
     }
    
   }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 445px) {
     .time-card .time {
-        font-size: 1.5rem !important;
+        font-size: 1.45rem !important;
     }
   }
 
 
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 375px) {
     .time-card {
         padding: 10px;
     }
@@ -146,7 +149,7 @@
     }
   }
 
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 355px) {
     .time-card .time {
         font-size: 1.3rem !important;
     }

@@ -40,75 +40,75 @@
 .banner .image img {
     width: 14rem;
 }
-@media screen and (max-width: 350px) {
-   
-    .temperature{
-        font-size: 3.7rem !important;
-    }
-     
-     .label{
-      font-size:0.8rem !important ;
-     }
-    .banner{
-        padding-left: 3px !important;
-        padding-right: 3px !important;
-    }
-
-   
+@media screen and (max-width: 600px) {
+    .banner .typography .status {
+        font-size: 10rem;
     }
     
-  @media screen and (max-width: 450px) {
-   
+    .banner .image img {
+        width: 10rem;
+    }
+  }
+@media screen and (max-width: 830px) {
+    .banner .typography {
+      gap: 0px ;
+    }
     .banner .typography .status {
      font-size: 0.8rem;
      }
+     .label{
+         font-size: 1rem !important;
+     }
  
      .banner .image img {
-         width: 7rem;
+         width: 9rem;
      }
-     
-     .label{
-      font-size:1rem !important ;
+     .banner .typography .temperature {
+         font-size: 4rem;
      }
-     .banner{
-      gap:0rem !important
+     .status{
+         font-size: 1rem;
      }
-}
-
-@media screen and (max-width: 600px) {
-    .banner .typography .status {
-        font-size: 1rem;
-    }
-    
-    .banner .image img {
-        width: 11rem;
-    }
-  }
-
-@media screen and (max-width: 850px) {
-   .banner .typography {
-     gap: 0px !important;
-   }
-   .banner .typography .status {
-    font-size: 0.7rem;
-    }
-    .label{
-        font-size: 1rem !important;
-    }
-
-    .banner .image img {
-        width: 9rem;
-    }
-    .banner .typography .temperature {
-        font-size: 4rem;
-    }
-    .status{
-        font-size: 1.1rem;
-    }
-
-   }
-
-
-
-
  
+    }
+ 
+ 
+ 
+   @media screen and (max-width: 444px) {
+    
+       .banner .typography .status {
+        font-size: 0.8rem;
+        }
+    
+        .banner .image img {
+            width: 6.9rem;
+        }
+        
+        .label{
+         font-size:0.9rem !important ;
+        }
+        .banner{
+         gap:0rem !important
+        }
+ 
+      
+   
+   }
+ 
+ 
+   @media screen and (max-width: 355px) {
+    
+     .temperature{
+         font-size: 3.5rem !important;
+     }
+      
+      .label{
+       font-size:0.8rem !important ;
+      }
+     .banner{
+         padding-left: 3px !important;
+         padding-right: 3px !important;
+     }
+ 
+    
+     }
